@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Gemunu+Libre:wght@600&display=swap');
+body {
+    background-color: black;
+}
+
+* {
+    background-image: url(th.jpg);
+}
+
+h1 {
+    color: white;
+    text-align: center;
+}
+
+h2 {
+    color: white;
+    text-align: center;
+}
+
+p {
+    border: 1px solid white;
+    font-family: roborto;
+    color: white;
+    font-size: 18px;
+}
+
+form {
+    color: white;
+    background: transparent;
+}
+
+input[type=text] {
+    background-color: transparent;
+    color: white;
+}
+
+input[type=email] {
+    background-color: transparent;
+    color: white;
+}
+
+input[type=message] {
+    background-color: transparent;
+    color: white;
+}
+
+p {
+    padding: 10px;
+}
+
+h1 {
+    padding: 150px;
+}
+
+body {
+    position: relative;
+    font-family: 'Gemunu Libre', sans-serif;
+}
+
+nav {
+    width: 100%;
+    height: 10vh;
+    background-color: transparent;
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav h1 {
+    color: #fff;
+    text-transform: uppercase;
+    padding-left: 50px;
+}
+
+nav img {
+    padding-left: 50px;
+    padding-top: 30px;
+}
+
+.divider {
+    padding-right: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 30%;
+    background-color: transparent;
+    list-style: none;
+}
+
+.divider li {
+    color: black;
+    text-transform: uppercase;
+    font-size: 25px;
+    cursor: pointer;
+    font-family: 'Gemunu Libre', sans-serif;
+}
+
+nav ul li a {
+    text-decoration: none;
+    /* color: black; */
+    color: white;
+}
+
+nav li:hover {
+    text-align: right;
+    justify-content: space-between;
+    background-color: grey;
+}
+
+input {
+    background-color: white;
+}
+
+button {
+    padding-right: 30px;
+    padding-left: 30px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    background-color: transparent;
+    color: white;
+    font-family: 'Gemunu Libre', sans-serif;
+    font-size: 20px;
+}
+
+button:hover {
+    background-color: orange;
+    color: rgb(179, 179, 179);
+    font-family: 'Gemunu Libre', sans-serif;
+}
